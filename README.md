@@ -6,8 +6,8 @@
 Este proyecto tiene como finalidad representar de manera correcta el puzzle "Tiling Tiles", el cual se basa en una interaccion constante de dos tableros y sus correspondientes fichas. El proyecto se divide en tres paquetes, domain, presentation y test. A partir de estos se rije la funcionalidad del programa donde se divide en estructura logica, interfaz de usuario y testeos de funcionalidad.
 
 - Paquetes:
-    1. ***presentation***: Contiene todo el esquema encargado de la visualizacion del programa frente al usuario, donde podemos ver las clases encargadas de crear y mantener visibles las estructuras y elementos principales del programa, asi como la entrada de conceptos y la formacion de acciones o alteraciones proximas a realizarse.
+    1. ***Presentation***: Contiene todo el esquema encargado de la visualizacion del programa frente al usuario, donde podemos ver las clases encargadas de crear y mantener visibles las estructuras y elementos principales del programa, asi como la entrada de conceptos y la formacion de acciones o alteraciones proximas a realizarse.
     2. ***Domain***: Almacena la estructura logica del programa, es decir, guarda todo el ecosistema de metodos y funciones encargadas de realizar todas las acciones del programa, tanto las opciones que tiene el usuario al inicar el proyecto como acciones no visibles que se encargan de realizar calculos y alteraciones mientras se este corriendo el programa.    
+    3. ***Test***: Guarda una serie de pruebas realizadas al programa, de tal manera que podemos verificar el correcto funcionamiento de toda la estructura general del codigo, de esta manera se realiza un avance seguro donde nos aseguramos de que se esten cumpliendo los estandares optimos para el funcionamiento del proyecto y tambien detectamos casos en donde no se cumpla con lo esperado. 
 
-
-###Ejecucion prueba de aceptacion:
+### Ejecucion prueba de aceptacion:
