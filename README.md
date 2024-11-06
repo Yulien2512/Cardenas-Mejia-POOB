@@ -21,4 +21,4 @@ Este proyecto tiene como finalidad representar de manera correcta el puzzle "Til
    - El usuario llama al constructor Puzzle(board, lastBoard) pasando los arreglos board y lastBoard.
    - El constructor revisa cada elemento de board y lastBoard para verificar si contienen colores válidos.
    - Al encontrar el carácter 'w' en lastBoard, el constructor lanza una IllegalArgumentException.
--Resultado esperado: Al encontrar el carácter 'w' en lastBoard, el constructor lanza una IllegalArgumentException.
+   - ***Resultado esperado***: Al encontrar el carácter 'w' en lastBoard, el constructor lanza una IllegalArgumentException.
