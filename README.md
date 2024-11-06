@@ -22,3 +22,11 @@ Este proyecto tiene como finalidad representar de manera correcta el puzzle "Til
    - El constructor revisa cada elemento de board y lastBoard para verificar si contienen colores válidos.
    - Al encontrar el carácter 'w' en lastBoard, el constructor lanza una IllegalArgumentException.
    - ***Resultado esperado***: Al encontrar el carácter 'w' en lastBoard, el constructor lanza una IllegalArgumentException.
+
+2. ***Caso prueba***: shouldNotAddTile()
+   - El usuario crea un objeto Puzzle con los tableros board y lastBoard, lo cual inicializa un puzzle con un estado válido.
+   - El método isOk es llamado y devuelve true, confirmando que el puzzle es válido tras su creación.
+   - El usuario intenta añadir una ficha de color "blue" en las coordenadas (5,6), que están fuera del rango del tablero.
+   - El método addTile no puede agregar la ficha en una posición inválida y debe marcar el puzzle como inválido.
+   - El usuario llama a isOk para verificar si el puzzle sigue en un estado válido.
+   - ***Resultado esperado***: El método isOk devuelve false, indicando que la operación de agregar una ficha en una posición inválida ha dejado el puzzle en un estado no válido.
