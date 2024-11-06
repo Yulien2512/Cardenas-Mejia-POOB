@@ -14,13 +14,11 @@ Este proyecto tiene como finalidad representar de manera correcta el puzzle "Til
     1. ***Puzzle***: Esta clase contiene los metodos de mayor importancia del proyecto, ya que es aqui donde se construyen los simientos mas basicos de la estructura del puzzle, ademas de la mayoria de acciones del programa, por lo que esta clase cumple con un papel muy importante tanto en visualizacion como en estructuracion del proyecto.
     2. ***Tile***: Asi como la clase "Puzzle", la clase "Tile" conforma un pilar dentro del proyecto, esta representa las protagonistas del puzzle, ed decir, las fichas. Ademas que de aqui surgen sus derivados para que al momento de jugar, el usuario tenga una experiencia mas variada.
     3. ***Glue***: La clase de "Glue" juega un papel importante, ya que, brinda la dinamica central del puzzle y se relaciona con la clase "Tile" para formar el concepto central del programa.
- 
        
-### Ejecucion prueba de aceptacion:
-
-    1. ***Caso prueba***: shouldNotCreateAPuzzleWithAInvalidColor()
-        - Un usuario intenta inicializar un puzzle con un tablero (lastBoard) que contiene una ficha con un color no permitido (w).
-        - El usuario llama al constructor Puzzle(board, lastBoard) pasando los arreglos board y lastBoard.
-        - El constructor revisa cada elemento de board y lastBoard para verificar si contienen colores válidos.
-        - Al encontrar el carácter 'w' en lastBoard, el constructor lanza una IllegalArgumentException.
-    ***Resultado esperado***: Al encontrar el carácter 'w' en lastBoard, el constructor lanza una IllegalArgumentException.
+### Ejecucion casos de prueba:
+1. ***Caso prueba***: shouldNotCreateAPuzzleWithAInvalidColor()
+   - Un usuario intenta inicializar un puzzle con un tablero (lastBoard) que contiene una ficha con un color no permitido (w).
+   - El usuario llama al constructor Puzzle(board, lastBoard) pasando los arreglos board y lastBoard.
+    - El constructor revisa cada elemento de board y lastBoard para verificar si contienen colores válidos.
+    - Al encontrar el carácter 'w' en lastBoard, el constructor lanza una IllegalArgumentException.
+***Resultado esperado***: Al encontrar el carácter 'w' en lastBoard, el constructor lanza una IllegalArgumentException.
