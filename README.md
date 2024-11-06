@@ -12,7 +12,7 @@ Este proyecto tiene como finalidad representar de manera correcta el puzzle "Til
 
 - Clases clave:
     1. ***Puzzle***: Esta clase contiene los metodos de mayor importancia del proyecto, ya que es aqui donde se construyen los simientos mas basicos de la estructura del puzzle, ademas de la mayoria de acciones del programa, por lo que esta clase cumple con un papel muy importante tanto en visualizacion como en estructuracion del proyecto.
-    2. ***Tile***: Asi como la clase "Puzzle", la clase "Tile" conforma un pilar dentro del proyecto, esta representa las protagonistas del puzzle, ed decir, las fichas. Ademas que de aqui surgen sus derivados para que al momento de jugar, el usuario tenga una experiencia mas variada.
+    2. ***Tile***: Asi como la clase "Puzzle", la clase "Tile" conforma un pilar dentro del proyecto, esta representa las protagonistas del puzzle, es decir, las fichas. Ademas que de aqui surgen sus derivados para que al momento de jugar, el usuario tenga una experiencia mas variada.
     3. ***Glue***: La clase de "Glue" juega un papel importante, ya que, brinda la dinamica central del puzzle y se relaciona con la clase "Tile" para formar el concepto central del programa.
        
 ### Ejecucion casos de prueba:
