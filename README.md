@@ -12,8 +12,8 @@ Este proyecto tiene como finalidad representar de manera correcta el puzzle "Til
 
 - Clases clave:
     1. ***Puzzle***: Esta clase contiene los metodos de mayor importancia del proyecto, ya que es aqui donde se construyen los simientos mas basicos de la estructura del puzzle, ademas de la mayoria de acciones del programa, por lo que esta clase cumple con un papel muy importante tanto en visualizacion como en estructuracion del proyecto.
-    2. ***Tile***: Asi como la clase "Puzzle", la clase "Tile" conforma un pilar dentro del proyecto, esta representa las protagonistas del puzzle, es decir, las fichas. Ademas que de aqui surgen sus derivados para que al momento de jugar, el usuario tenga una experiencia mas variada.
-    3. ***Glue***: La clase de "Glue" juega un papel importante, ya que, brinda la dinamica central del puzzle y se relaciona con la clase "Tile" para formar el concepto central del programa.
+    2. ***Tile***: Asi como la clase "Puzzle", la clase "Tile" conforma un pilar dentro del proyecto, esta representa las protagonistas del puzzle, es decir, las fichas. Ademas que de aqui surgen sus derivados para que al momento de jugar, el usuario tenga una experiencia mas variada. Esto se logra teniendo en cuenta que la clase "Tile" es una clase abstracta, lo que quiere decir que no se puede isntanciar en otro sitio y sirve como base para poder hacer otras clases, en este caso la variedad de tiles funciona con un sistema de herencia desde la clase "Tile" principal, de esta manera podemos crear varios tipos de Tile.
+    3. ***Glue***: La clase de "Glue" juega un papel importante, ya que, brinda la dinamica central del puzzle y se relaciona con la clase "Tile" para formar el concepto central del programa. La idea base del sistema de glue empieza determinando la tile que llevara el glue, a partir de ahi se mira como van a ser afectadas las tiles vecinas, esto puede variar segun su tipo, de ser normales se agruparan para ser movidas juntas. 
        
 ### Ejecucion casos de prueba:
 1. ***Caso prueba***: shouldNotCreateAPuzzleWithAInvalidColor()
