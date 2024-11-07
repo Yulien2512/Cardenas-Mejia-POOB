@@ -35,15 +35,16 @@ Al terminar, Julián ha verificado que el tablero y sus elementos cumplen con to
 
 2. ***Historia de uso, prueba #2***:
    
-Después de una serie de pruebas iniciales, Juan, también ingeniero de mantenimiento de estructuras, decide someter el tablero a un conjunto de condiciones más avanzadas para probar la resistencia y complejidad de las interacciones.
-El objetivo de Juan es observar cómo las fichas responden cuando están rodeadas de obstáculos y cómo reaccionan en una serie de movimientos encadenados que ponen a prueba su comportamiento:
-* ***Fichas normales y ásperas***: Juan comienza colocando dos fichas normales (rojas) junto a una ficha áspera (azul). Quiere comprobar que las fichas normales se muevan libremente, pero que se desaceleren o bloqueen al intentar desplazarse sobre la ficha áspera.
-* ***Ficha fija***: Luego, coloca una ficha fija (amarilla) justo debajo de una de las fichas normales para ver si la presencia de una barrera inamovible afecta el movimiento vertical.
-* ***Ficha freelance***: A continuación, Juan incorpora una ficha especial freelance (verde) en la parte superior del tablero. Esta ficha tiene más libertad de movimiento, y Juan quiere observar si su habilidad especial le permite moverse independientemente de la configuración del tablero.
-* ***Ficha voladora y hoyo***: Juan introduce una ficha voladora (púrpura) y un hoyo en la esquina inferior del tablero. Su objetivo es ver si la ficha voladora mantiene su posición sin caer, mientras otras fichas pueden caer en el hoyo si pasan por encima.
-  
-Juan activa los movimientos uno por uno, revisando cómo interactúan las fichas en el tablero. El primer movimiento, hacia abajo, prueba que las fichas normales se detienen al encontrarse con el terreno áspero y las fichas fijas. Luego, al mover el tablero hacia la derecha, verifica que la ficha freelance mantiene su libertad de movimiento. Finalmente, mueve hacia arriba para confirmar el comportamiento de la ficha voladora y hacia la izquierda para ver si alguna ficha cae en el hoyo.
-Al terminar la prueba, Juan revisa el estado final del tablero, satisfecho de que cada ficha ha respondido correctamente según su tipo y configuración. Confirma que el sistema de movimiento y las interacciones especiales de las fichas están listas para enfrentar desafíos de complejidad creciente.
+Juan es un usuario que quiere realizar una prueba más exhaustiva de las funcionalidades del tablero, incluyendo fichas normales, fijas, ásperas, y voladoras. Quiere asegurarse de que las reglas de movimiento y de bloqueo se comporten como se espera.
+
+Juan inicia con un tablero en blanco y añade cuatro fichas: una normal (roja) en (0, 0), una fija (amarilla) en (0, 1), una áspera (azul) en (1, 1), y una voladora (verde) en (2, 2). El objetivo es verificar el movimiento de cada ficha y la correcta aplicación de restricciones.
+
+Primero, mueve el tablero hacia la derecha. La ficha normal se detiene frente a la ficha fija, lo que confirma que las barreras funcionan correctamente. Luego, al mover hacia abajo, la ficha normal baja sin problemas, ya que no tiene obstáculos en esa dirección.
+
+A continuación, Juan intenta mover el tablero hacia la izquierda, y observa que la ficha normal no puede pasar sobre la ficha áspera, ya que esta es inmóvil y bloquea el camino. Finalmente, al mover hacia arriba, comprueba que la ficha voladora evita obstáculos y se comporta de acuerdo con sus propiedades especiales.
+
+Para terminar, Juan realiza una operación de intercambio (exchange) entre la ficha normal y la voladora. Luego, observa el estado final del tablero para confirmar que todas las interacciones se comportaron correctamente según lo esperado.
+
 
 
    
