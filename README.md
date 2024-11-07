@@ -18,6 +18,7 @@ Este proyecto tiene como finalidad representar de manera correcta el puzzle "Til
 ### Ejecucion casos de prueba:
 
 1. ***Historia de uso, prueba #1***:
+   
 En un entorno futurista, un ingeniero de mantenimiento de estructuras interactivas, llamado Julián, está probando un nuevo tablero de simulación con fichas inteligentes. Su misión es evaluar cómo responden distintos tipos de fichas a instrucciones de movimiento, obstáculos y elementos en el tablero.
 
 Julián comienza con un tablero vacío, donde cada casilla está inactiva, representada por puntos. Primero, coloca algunas fichas normales (rojas), para probar movimientos básicos. Estas fichas se deslizan en el tablero con facilidad, y Julián observa su reacción al desplazarlas hacia arriba, abajo, izquierda y derecha. Todo parece funcionar bien.
@@ -33,6 +34,7 @@ Durante cada prueba, una ventana emergente le permite a Julián decidir si conti
 Al terminar, Julián ha verificado que el tablero y sus elementos cumplen con todos los criterios de interacción, listando posibles mejoras. La simulación ha sido exitosa, y Julián está listo para enviar su informe de pruebas, satisfecho con los resultados.
 
 2. ***Historia de uso, prueba #2***:
+   
 Después de una serie de pruebas iniciales, Juan, también ingeniero de mantenimiento de estructuras, decide someter el tablero a un conjunto de condiciones más avanzadas para probar la resistencia y complejidad de las interacciones.
 El objetivo de Juan es observar cómo las fichas responden cuando están rodeadas de obstáculos y cómo reaccionan en una serie de movimientos encadenados que ponen a prueba su comportamiento:
 * ***Fichas normales y ásperas***: Juan comienza colocando dos fichas normales (rojas) junto a una ficha áspera (azul). Quiere comprobar que las fichas normales se muevan libremente, pero que se desaceleren o bloqueen al intentar desplazarse sobre la ficha áspera.
