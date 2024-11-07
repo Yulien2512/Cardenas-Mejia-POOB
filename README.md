@@ -16,17 +16,22 @@ Este proyecto tiene como finalidad representar de manera correcta el puzzle "Til
     3. ***Glue***: La clase de "Glue" juega un papel importante, ya que, brinda la dinamica central del puzzle y se relaciona con la clase "Tile" para formar el concepto central del programa. La idea base del sistema de glue empieza determinando la tile que llevara el glue, a partir de ahi se mira como van a ser afectadas las tiles vecinas, esto puede variar segun su tipo, de ser normales se agruparan para ser movidas juntas. 
        
 ### Ejecucion casos de prueba:
-1. ***Caso prueba***: shouldNotCreateAPuzzleWithAInvalidColor()
-   - Un usuario intenta inicializar un puzzle con un tablero (lastBoard) que contiene una ficha con un color no permitido (w).
-   - El usuario llama al constructor Puzzle(board, lastBoard) pasando los arreglos board y lastBoard.
-   - El constructor revisa cada elemento de board y lastBoard para verificar si contienen colores válidos.
-   - Al encontrar el carácter 'w' en lastBoard, el constructor lanza una IllegalArgumentException.
-   - ***Resultado esperado***: Al encontrar el carácter 'w' en lastBoard, el constructor lanza una IllegalArgumentException.
+1. ***Historia de uso, prueba #1***:
+En un entorno futurista, un ingeniero de mantenimiento de estructuras interactivas, llamado Julián, está probando un nuevo tablero de simulación con fichas inteligentes. Su misión es evaluar cómo responden distintos tipos de fichas a instrucciones de movimiento, obstáculos y elementos en el tablero.
+Julián comienza con un tablero vacío, donde cada casilla está inactiva, representada por puntos. Primero, coloca algunas fichas normales (rojas), para probar movimientos básicos. Estas fichas se deslizan en el tablero con facilidad, y Julián observa su reacción al desplazarlas hacia arriba, abajo, izquierda y derecha. Todo parece funcionar bien.
+Luego, Julián introduce un nuevo tipo de ficha: fichas fijas (amarillas). Estas fichas son inamovibles y crean barreras en el tablero. Cuando las fichas normales intentan desplazarse en su dirección, se detienen, mostrando que el sistema reconoce correctamente las restricciones.
+Más adelante, Julián coloca una ficha áspera (azul), que representa un terreno irregular en el tablero. Quiere comprobar cómo afecta el flujo de las fichas en su entorno, y observa que las fichas normales reaccionan de forma distinta, mostrando la resistencia del terreno áspero.
+Finalmente, introduce una ficha freelance (verde), una ficha especial que puede moverse con más libertad y adherirse temporalmente al tablero usando una habilidad de pegado. Julián coloca esta ficha cerca de otras fichas normales, las mueve en diferentes direcciones y experimenta el uso de pegamento en una posición. Además, Julián configura hoyos en el tablero para ver si las fichas caen en ellos cuando pasan sobre estas trampas.
+Durante cada prueba, una ventana emergente le permite a Julián decidir si continuar o ajustar el movimiento. Con cada interacción, el sistema se asegura de que las fichas respondan de acuerdo con sus atributos y condiciones.
+Al terminar, Julián ha verificado que el tablero y sus elementos cumplen con todos los criterios de interacción, listando posibles mejoras. La simulación ha sido exitosa, y Julián está listo para enviar su informe de pruebas, satisfecho con los resultados.
 
-2. ***Caso prueba***: shouldNotAddTile()
-   - El usuario crea un objeto Puzzle con los tableros board y lastBoard, lo cual inicializa un puzzle con un estado válido.
-   - El método isOk es llamado y devuelve true, confirmando que el puzzle es válido tras su creación.
-   - El usuario intenta añadir una ficha de color "blue" en las coordenadas (5,6), que están fuera del rango del tablero.
-   - El método addTile no puede agregar la ficha en una posición inválida y debe marcar el puzzle como inválido.
-   - El usuario llama a isOk para verificar si el puzzle sigue en un estado válido.
-   - ***Resultado esperado***: El método isOk devuelve false, indicando que la operación de agregar una ficha en una posición inválida ha dejado el puzzle en un estado no válido.
+2. ***Historia de uso, prueba #2***:
+En un entorno futurista, un ingeniero de mantenimiento de estructuras interactivas, llamado Julián, está probando un nuevo tablero de simulación con fichas inteligentes. Su misión es evaluar cómo responden distintos tipos de fichas a instrucciones de movimiento, obstáculos y elementos en el tablero.
+Julián comienza con un tablero vacío, donde cada casilla está inactiva, representada por puntos. Primero, coloca algunas fichas normales (rojas), para probar movimientos básicos. Estas fichas se deslizan en el tablero con facilidad, y Julián observa su reacción al desplazarlas hacia arriba, abajo, izquierda y derecha. Todo parece funcionar bien.
+Luego, Julián introduce un nuevo tipo de ficha: fichas fijas (amarillas). Estas fichas son inamovibles y crean barreras en el tablero. Cuando las fichas normales intentan desplazarse en su dirección, se detienen, mostrando que el sistema reconoce correctamente las restricciones.
+Más adelante, Julián coloca una ficha áspera (azul), que representa un terreno irregular en el tablero. Quiere comprobar cómo afecta el flujo de las fichas en su entorno, y observa que las fichas normales reaccionan de forma distinta, mostrando la resistencia del terreno áspero.
+Finalmente, introduce una ficha freelance (verde), una ficha especial que puede moverse con más libertad y adherirse temporalmente al tablero usando una habilidad de pegado. Julián coloca esta ficha cerca de otras fichas normales, las mueve en diferentes direcciones y experimenta el uso de pegamento en una posición. Además, Julián configura hoyos en el tablero para ver si las fichas caen en ellos cuando pasan sobre estas trampas.
+Durante cada prueba, una ventana emergente le permite a Julián decidir si continuar o ajustar el movimiento. Con cada interacción, el sistema se asegura de que las fichas respondan de acuerdo con sus atributos y condiciones.
+Al terminar, Julián ha verificado que el tablero y sus elementos cumplen con todos los criterios de interacción, listando posibles mejoras. La simulación ha sido exitosa, y Julián está listo para enviar su informe de pruebas, satisfecho con los resultados.
+
+   
