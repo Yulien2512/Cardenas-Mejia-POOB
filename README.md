@@ -16,6 +16,7 @@ Este proyecto tiene como finalidad representar de manera correcta el puzzle "Til
     3. ***Glue***: La clase de "Glue" juega un papel importante, ya que, brinda la dinamica central del puzzle y se relaciona con la clase "Tile" para formar el concepto central del programa. La idea base del sistema de glue empieza determinando la tile que llevara el glue, a partir de ahi se mira como van a ser afectadas las tiles vecinas, esto puede variar segun su tipo, de ser normales se agruparan para ser movidas juntas. 
        
 ### Ejecucion casos de prueba:
+
 1. ***Historia de uso, prueba #1***:
 En un entorno futurista, un ingeniero de mantenimiento de estructuras interactivas, llamado Julián, está probando un nuevo tablero de simulación con fichas inteligentes. Su misión es evaluar cómo responden distintos tipos de fichas a instrucciones de movimiento, obstáculos y elementos en el tablero.
 Julián comienza con un tablero vacío, donde cada casilla está inactiva, representada por puntos. Primero, coloca algunas fichas normales (rojas), para probar movimientos básicos. Estas fichas se deslizan en el tablero con facilidad, y Julián observa su reacción al desplazarlas hacia arriba, abajo, izquierda y derecha. Todo parece funcionar bien.
@@ -28,10 +29,10 @@ Al terminar, Julián ha verificado que el tablero y sus elementos cumplen con to
 2. ***Historia de uso, prueba #2***:
 Después de una serie de pruebas iniciales, Juan, también ingeniero de mantenimiento de estructuras, decide someter el tablero a un conjunto de condiciones más avanzadas para probar la resistencia y complejidad de las interacciones.
 El objetivo de Juan es observar cómo las fichas responden cuando están rodeadas de obstáculos y cómo reaccionan en una serie de movimientos encadenados que ponen a prueba su comportamiento:
-* Fichas normales y ásperas: Juan comienza colocando dos fichas normales (rojas) junto a una ficha áspera (azul). Quiere comprobar que las fichas normales se muevan libremente, pero que se desaceleren o bloqueen al intentar desplazarse sobre la ficha áspera.
-* Ficha fija: Luego, coloca una ficha fija (amarilla) justo debajo de una de las fichas normales para ver si la presencia de una barrera inamovible afecta el movimiento vertical.
-* Ficha freelance: A continuación, Juan incorpora una ficha especial freelance (verde) en la parte superior del tablero. Esta ficha tiene más libertad de movimiento, y Juan quiere observar si su habilidad especial le permite moverse independientemente de la configuración del tablero.
-* Ficha voladora y hoyo: Juan introduce una ficha voladora (púrpura) y un hoyo en la esquina inferior del tablero. Su objetivo es ver si la ficha voladora mantiene su posición sin caer, mientras otras fichas pueden caer en el hoyo si pasan por encima.
+* ***Fichas normales y ásperas***: Juan comienza colocando dos fichas normales (rojas) junto a una ficha áspera (azul). Quiere comprobar que las fichas normales se muevan libremente, pero que se desaceleren o bloqueen al intentar desplazarse sobre la ficha áspera.
+* ***Ficha fija***: Luego, coloca una ficha fija (amarilla) justo debajo de una de las fichas normales para ver si la presencia de una barrera inamovible afecta el movimiento vertical.
+* ***Ficha freelance***: A continuación, Juan incorpora una ficha especial freelance (verde) en la parte superior del tablero. Esta ficha tiene más libertad de movimiento, y Juan quiere observar si su habilidad especial le permite moverse independientemente de la configuración del tablero.
+* ***Ficha voladora y hoyo***: Juan introduce una ficha voladora (púrpura) y un hoyo en la esquina inferior del tablero. Su objetivo es ver si la ficha voladora mantiene su posición sin caer, mientras otras fichas pueden caer en el hoyo si pasan por encima.
   
 Juan activa los movimientos uno por uno, revisando cómo interactúan las fichas en el tablero. El primer movimiento, hacia abajo, prueba que las fichas normales se detienen al encontrarse con el terreno áspero y las fichas fijas. Luego, al mover el tablero hacia la derecha, verifica que la ficha freelance mantiene su libertad de movimiento. Finalmente, mueve hacia arriba para confirmar el comportamiento de la ficha voladora y hacia la izquierda para ver si alguna ficha cae en el hoyo.
 Al terminar la prueba, Juan revisa el estado final del tablero, satisfecho de que cada ficha ha respondido correctamente según su tipo y configuración. Confirma que el sistema de movimiento y las interacciones especiales de las fichas están listas para enfrentar desafíos de complejidad creciente.
