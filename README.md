@@ -19,11 +19,17 @@ Este proyecto tiene como finalidad representar de manera correcta el puzzle "Til
 
 1. ***Historia de uso, prueba #1***:
 En un entorno futurista, un ingeniero de mantenimiento de estructuras interactivas, llamado Julián, está probando un nuevo tablero de simulación con fichas inteligentes. Su misión es evaluar cómo responden distintos tipos de fichas a instrucciones de movimiento, obstáculos y elementos en el tablero.
+
 Julián comienza con un tablero vacío, donde cada casilla está inactiva, representada por puntos. Primero, coloca algunas fichas normales (rojas), para probar movimientos básicos. Estas fichas se deslizan en el tablero con facilidad, y Julián observa su reacción al desplazarlas hacia arriba, abajo, izquierda y derecha. Todo parece funcionar bien.
+
 Luego, Julián introduce un nuevo tipo de ficha: fichas fijas (amarillas). Estas fichas son inamovibles y crean barreras en el tablero. Cuando las fichas normales intentan desplazarse en su dirección, se detienen, mostrando que el sistema reconoce correctamente las restricciones.
+
 Más adelante, Julián coloca una ficha áspera (azul), que representa un terreno irregular en el tablero. Quiere comprobar cómo afecta el flujo de las fichas en su entorno, y observa que las fichas normales reaccionan de forma distinta, mostrando la resistencia del terreno áspero.
+
 Finalmente, introduce una ficha freelance (verde), una ficha especial que puede moverse con más libertad y adherirse temporalmente al tablero usando una habilidad de pegado. Julián coloca esta ficha cerca de otras fichas normales, las mueve en diferentes direcciones y experimenta el uso de pegamento en una posición. Además, Julián configura hoyos en el tablero para ver si las fichas caen en ellos cuando pasan sobre estas trampas.
+
 Durante cada prueba, una ventana emergente le permite a Julián decidir si continuar o ajustar el movimiento. Con cada interacción, el sistema se asegura de que las fichas respondan de acuerdo con sus atributos y condiciones.
+
 Al terminar, Julián ha verificado que el tablero y sus elementos cumplen con todos los criterios de interacción, listando posibles mejoras. La simulación ha sido exitosa, y Julián está listo para enviar su informe de pruebas, satisfecho con los resultados.
 
 2. ***Historia de uso, prueba #2***:
